@@ -1,2 +1,38 @@
-# my-life-circle
-该项目使用express和vue和mysql开发，实现了用户模板（登入注册个人资料等功能），文件功能（图片的上传与下载等），生活圈模板(生活圈的发布与管理，该模板也可以成为文章模板，可以在置顶文章下评论)，疫情信息模板（查询疫情的信息）、管理模板(对所有的板块进行管理)
+#my-life-circle
+
+The project is developed using express, vue and mysql, and realizes user templates (functions such as logging in and registering personal information), file functions (uploading and downloading pictures, etc.), life circle template (publishing and management of life circle, this template can also become Article template, you can comment under the top article), epidemic information template (inquire about epidemic information), management template (manage all sections)
+
+## front panel start
+
+### Project setup
+
+````
+npm install
+````
+
+#### Compiles and hot-reloads for development
+
+````
+npm run serve
+````
+
+#### Compiles and minifies for production
+
+````
+npm run build
+````
+
+#### Lints and fixes files
+
+````
+npm run lint
+````
+
+## backend startup
+
+### Project setup
+
+~~~cmd
+npm install
+node app.js
+~~~
